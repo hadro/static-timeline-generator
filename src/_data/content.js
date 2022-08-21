@@ -43,6 +43,27 @@ const entries = [
       },
     ],
   },
+  {
+    id: 'bat',
+    categories: ['bat'],
+    color: 'orange',
+    faicon: 'dog',
+    datetime: '2022-08-21 14:55',
+    title: 'Bats are amazing',
+    image: {
+      link: 'http://place-puppy.com',
+      src: 'https://place-puppy.com/300x300',
+      alt: 'A placeholder puppy',
+      caption: 'Bats!',
+    },
+    body: '¯\_(ツ)_/¯',
+    links: [
+      {
+        href: 'https://en.wikipedia.org/wiki/bat',
+        linkText: 'Bat!!!',
+      },
+    ],
+  }
 ];
 
 // Page details
