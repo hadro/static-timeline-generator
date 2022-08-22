@@ -56,11 +56,32 @@ const entries = [
       alt: 'A placeholder puppy',
       caption: 'Bats!',
     },
-    body: '¯\_(ツ)_/¯',
+    body: '¯\\_(ツ)_/¯',
     links: [
       {
         href: 'https://en.wikipedia.org/wiki/bat',
         linkText: 'Bat!!!',
+      },
+    ],
+  },
+  {
+    id: 'Rat',
+    categories: ['Rat'],
+    color: 'brown',
+    faicon: 'cat',
+    datetime: '2022-08-22 11:55',
+    title: 'rats are amazing',
+    image: {
+      link: 'http://place-puppy.com',
+      src: 'https://place-puppy.com/300x300',
+      alt: 'A placeholder puppy',
+      caption: 'rats!',
+    },
+    body: '🎉',
+    links: [
+      {
+        href: 'https://en.wikipedia.org/wiki/rat',
+        linkText: 'Rat!',
       },
     ],
   }
