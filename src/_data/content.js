@@ -11,6 +11,18 @@ const entries = [
 //  - href: 'https://example.com'
 //    linkText: 'Test link'
 
+    {
+    "id": "smart home dryer",
+    "datetime": "2022-08-30",
+    "title": "SmartDry’s useful laundry sensor to be cloud-bricked next month",
+    "body": "Sensor for already dry clothes relied on smartphone app, servers to work.",
+    "links": [
+        {
+            "href": "https://arstechnica.com/gadgets/2022/08/smartdrys-useful-laundry-sensor-to-be-cloud-bricked-next-month/",
+            "linkText": "SmartDry’s useful laundry sensor to be cloud-bricked next month"
+        }
+    ]
+},
 {
     "id": "AI art",
     "datetime": "2022-08-25",
