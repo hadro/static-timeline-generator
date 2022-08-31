@@ -1,96 +1,78 @@
-const header = 'Welcome to this wonderful example timeline.';
-const footer = 'A footer goes here.';
+const header = 'Welcome to INFO 654-04 News of the Week!';
+const footer = 'This has been an INFO 654-04 News of the Week production.';
 const entries = [
-  {
-    id: 'cat',
-    categories: ['cat'],
-    color: 'green',
-    faicon: 'cat',
-    datetime: '2021-01-01 05:00',
-    title: 'Cats are very good',
+//   This is the minimum necessary in YAML:
+// id: 'minimum test'
+// datetime: '2022-08-20'
+// title: 'What a test' 
+// body: 'This is a test of the system.'
+// links:
+//  - href: 'https://example.com'
+//    linkText: 'Test link'
+
+{
+    "id": "AI art",
+    "datetime": "2022-08-25",
+    "title": "AI Creating 'Art' Is An Ethical And Copyright Nightmare",
     image: {
-      link: 'http://placekitten.com',
-      src: 'http://placekitten.com/200/300',
-      alt: 'A placeholder kitten',
-      caption: 'Kitten!',
+      link: 'https://kotaku.com/ai-art-dall-e-midjourney-stable-diffusion-copyright-1849388060',
+      src: 'https://i.kinja-img.com/gawker-media/image/upload/c_fit,f_auto,g_center,pg_1,q_60,w_1600/5f3bd450cde649dee0acd934ca7c6b6e.jpg',
+      alt: 'Kotaku image',
+      caption: 'AI creating art?',
     },
-    body: "The best thing in the universe is a cardboard box. Chirp at birds catasstrophe for meowwww for hiding behind the couch until lured out by a feathery toy for morning beauty routine of licking self sugar, my siamese, stalks me (in a good way), day and night lick the other cats. Pushed the mug off the table shove bum in owner's face like camera lens or tickle my belly at your own peril i will pester for food when you're in the kitchen even if it's salad and grass smells good, licks your face, but hiiiiiiiiii feed me now.",
-    links: [
-      {
-        href: 'https://en.wikipedia.org/wiki/Cat',
-        linkText: 'Cat',
-      },
-    ],
-  },
-  {
-    id: 'dog',
-    categories: ['dog'],
-    color: 'green',
-    faicon: 'dog',
-    datetime: '2021-05-01 23:55',
-    title: 'Puppies are great too',
+    "body": "If a machine makes art, is it even art? And what does this mean for actual artists?",
+    "links": [
+        {
+            "href": "https://kotaku.com/ai-art-dall-e-midjourney-stable-diffusion-copyright-1849388060",
+            "linkText": "AI Creating 'Art' Is An Ethical And Copyright Nightmare"
+        }
+    ]
+},
+{
+    "id": "remote scanning",
+    "datetime": "2022-08-25",
+    "title": "Remote Scan of Student’s Room Before Test Violated His Privacy, Judge Rules",
     image: {
-      link: 'http://place-puppy.com',
-      src: 'https://place-puppy.com/300x300',
-      alt: 'A placeholder puppy',
-      caption: 'Puppy!',
+      link: 'https://www.nytimes.com/2022/08/25/us/remote-testing-student-home-scan-privacy.html',
+      src: 'https://static01.nyt.com/images/2022/08/25/lens/25xp-testruiling-01/25xp-testruiling-01-superJumbo.jpg?quality=75&auto=webp',
+      alt: 'NYT image',
+      caption: "Where's the line on privacy?",
     },
-    body: 'Doggo ipsum sub woofer smol wow very biscit aqua doggo pupper dat tungg tho big ol pupper, very jealous pupper mlem heckin angery woofer very jealous pupper. Blep waggy wags long doggo, corgo. Tungg wow such tempt mlem very jealous pupper boofers lotsa pats, snoot smol big ol ruff doge super chub, long doggo heckin good boys and girls h*ck heck. Shoober blop many pats borkf, such treat. Big ol what a nice floof long water shoob wrinkler heck sub woofer, pupper porgo wow very biscit.',
-    links: [
-      {
-        href: 'https://en.wikipedia.org/wiki/Dog',
-        linkText: 'Dog',
-      },
-    ],
-  },
-  {
-    id: 'bat',
-    categories: ['bat'],
-    color: 'orange',
-    faicon: 'dog',
-    datetime: '2022-08-21 14:55',
-    title: 'Bats are amazing',
-    image: {
-      link: 'http://place-puppy.com',
-      src: 'https://place-puppy.com/300x300',
-      alt: 'A placeholder puppy',
-      caption: 'Bats!',
-    },
-    body: '¯\\_(ツ)_/¯',
-    links: [
-      {
-        href: 'https://en.wikipedia.org/wiki/bat',
-        linkText: 'Bat!!!',
-      },
-    ],
-  },
-  {
-    id: 'Rat',
-    categories: ['Rat'],
-    color: 'brown',
-    faicon: 'cat',
-    datetime: '2022-08-22 11:55',
-    title: 'rats are amazing',
-    image: {
-      link: 'http://place-puppy.com',
-      src: 'https://place-puppy.com/300x300',
-      alt: 'A placeholder puppy',
-      caption: 'rats!',
-    },
-    body: '🎉',
-    links: [
-      {
-        href: 'https://en.wikipedia.org/wiki/rat',
-        linkText: 'Rat!',
-      },
-    ],
-  }
+    "body": "A federal judge said Cleveland State University violated the Fourth Amendment when it used software to scan a student’s bedroom, a practice that has grown during the Covid-19 pandemic.",
+    "links": [
+        {
+            "href": "https://www.nytimes.com/2022/08/25/us/remote-testing-student-home-scan-privacy.html",
+            "linkText": "Remote Scan of Student’s Room Before Test Violated His Privacy, Judge Rules"
+        }
+    ]
+}
+  // {
+  //   id: 'cat',
+  //   categories: ['cat'],
+  //   color: 'green',
+  //   faicon: 'cat',
+  //   datetime: '2021-01-01 05:00',
+  //   title: 'Cats are very good',
+  //   image: {
+  //     link: 'http://placekitten.com',
+  //     src: 'http://placekitten.com/200/300',
+  //     alt: 'A placeholder kitten',
+  //     caption: 'Kitten!',
+  //   },
+  //   body: "The best thing in the universe is a cardboard box. Chirp at birds catasstrophe for meowwww for hiding behind the couch until lured out by a feathery toy for morning beauty routine of licking self sugar, my siamese, stalks me (in a good way), day and night lick the other cats. Pushed the mug off the table shove bum in owner's face like camera lens or tickle my belly at your own peril i will pester for food when you're in the kitchen even if it's salad and grass smells good, licks your face, but hiiiiiiiiii feed me now.",
+  //   links: [
+  //     {
+  //       href: 'https://en.wikipedia.org/wiki/Cat',
+  //       linkText: 'Cat',
+  //     },
+  //   ],
+  // },
 ];
 
 // Page details
-const pageTitle = 'Static timeline generator'; // The title of the page that shows in the browser tab
-const pageDescription = 'A super fancy timeline'; // The description of the page for search engines
-const pageAuthor = 'Jane Doe'; // Your name
+const pageTitle = 'INFO 654-04 News of the Week'; // The title of the page that shows in the browser tab
+const pageDescription = 'News items of interest from the INFO 654-04 class.'; // The description of the page for search engines
+const pageAuthor = 'Pratt Institute School of Information INFO 654-04 Class, Fall 2022'; // Your name
 
 // DON'T EDIT BELOW THIS LINE! --------------------------------------------------------------------
 const getFilters = (entries) => {
