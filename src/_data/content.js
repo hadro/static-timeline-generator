@@ -2,6 +2,7 @@ const header = 'Welcome to INFO 654-04 News of the Week!';
 const footer = 'This has been an INFO 654-04 News of the Week production.';
 const entries = [
 //   This is the minimum necessary in YAML:
+// (And you can convert it here: https://jsonformatter.org/yaml-to-json)
 // id: 'minimum test'
 // datetime: '2022-08-20'
 // title: 'What a test' 
