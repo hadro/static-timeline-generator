@@ -3,7 +3,7 @@ const footer = 'This has been an INFO 654-04 News of the Week production.';
 
 
 // var Airtable = require("airtable");
-// var base = new Airtable({apiKey: 'keyi8WG290ZaqOm5r'}).base('appZAykA0vRAQ2I6e');
+// var base = new Airtable({apiKey: ''}).base('appZAykA0vRAQ2I6e');
 
 // module.exports = function() {
 //   return new Promise((resolve, reject) => {
